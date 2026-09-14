@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import type { Variants } from 'motion/react';
 import { Worm, Code2, Layout, Database, Cpu, Globe, Braces, Layers, Coffee, Hammer, Wifi } from 'lucide-react';
-import Background from '../assets/myself02.jpg';
+import Background from '../assets/myself02.webp';
 
 const skillsData = [
     {name: 'HTML', icon: Globe, category: 'Frontend', level: 95 },
