@@ -10,7 +10,7 @@ interface FooterProps {
 }
 
 const PLAYLIST = [
-    {title: "Cyber-Symphony No1", src: bgMusic1 },
+    {title: "Cyber-Symphony No.1", src: bgMusic1 },
     {title: "Minimal", src: bgMusic2 }
 ];
 
