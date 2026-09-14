@@ -108,7 +108,7 @@ export default function Footer({isPlaying, setIsPlaying}: FooterProps){
                     if(audioRef.current) setDuration(audioRef.current.duration);
                 }}
                 onEnded={skipForward} //auto skip when song finishes
-                preload="auto"
+                preload="none"
             />
 
             <div className="h-20 w-full px-6 md:px-20 flex items-center justify-between mx-auto max-w-[1440px] gap-8">
